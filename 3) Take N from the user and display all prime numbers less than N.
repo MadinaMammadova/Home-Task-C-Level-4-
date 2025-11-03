@@ -11,8 +11,9 @@ for (int i=2;i<N;i++) {
       if (i%j==0)
         break; 
 }
-if (j==i)
+if (j==i) {
     cout<<i<<" ";
+}
 }
    cout<<endl;
  return 0;
